@@ -8,7 +8,7 @@ int crash() {
 }
 
 int main(int argc, char **argv) {
-    print("We're going to crash!\n");
+    printf("We're going to crash!\n");
     crash();
     printf("Back after the crash?\n");
 }
